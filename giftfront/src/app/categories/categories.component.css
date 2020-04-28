@@ -1,0 +1,47 @@
+@media only screen and (min-width: 630px) {
+.categories-style{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.img-container :hover{
+    transform: scale(1.1);
+}
+.sales-products{
+    display: inline-block;
+}
+
+}
+
+.categories-style li{
+    border: brown solid 1px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: white;
+    font-size: 25px;
+    margin:40px;
+    text-align: left;
+}
+
+.container{
+    margin:30px;
+    text-align: center;
+}
+
+.categories-style li a{
+    color: brown;
+    text-decoration: none;
+    padding: 15px 35px;
+    margin-right: 18px;
+}
+
+ul{
+    padding: 0;
+}
+.sales{
+    padding: 1%;
+    margin: 5%;
+    color: red;
+ }

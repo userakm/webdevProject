@@ -1,0 +1,55 @@
+@media only screen and (min-width: 530px) {
+.products-style{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-container :hover{
+    transform: scale(1.1);
+}
+}
+.h2-style{
+    color: brown;
+}
+.box{
+    flex-basis: 20%;
+    padding:15px;
+    list-style: none;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color:white;
+    color: brown;
+    margin-bottom: 2%;
+}
+
+.container{
+    padding: 0;
+    margin:5%;
+    align-items: center;
+}
+
+.products-style li a{
+    text-decoration: none;
+    color: brown;
+}
+.h2-style{
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+}
+.bottom{
+    text-align: center;
+}
+.back-button{
+    text-decoration: none;
+    color: brown;
+    background-color: white;
+    padding:10px;
+    border-radius: 5px;
+    margin-right: 19px;
+}

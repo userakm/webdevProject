@@ -1,0 +1,18 @@
+﻿<div class="registration">
+    <h2>
+        Регистрация
+    </h2>
+    <h5>
+        Зарегистрируйтесь чтобы покупать подарки на нашем сайте 
+    </h5>
+    <div id="container">
+        <p>Email или номер телефона</p>
+        <input type="text" name="text" [(ngModel)]="username">
+        <p>Пароль</p>
+        <input type="password" name="psw" [(ngModel)]="password">
+<!--        <p>Confirm Password</p>-->
+<!--        <input type="password" name="psw">-->
+        <p><input type="checkbox" checked>I allow Lichi to use my personal data in accordance with <br>confidential by agreement.</p>
+        <p><button type="login" (click)="register()">Зарегистрироваться</button></p>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+@media only screen and (min-width: 530px) {
+    .cart-container{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+}
+
+.cart{
+    color: black;
+    margin: 5%;
+}
+.close-container{
+    text-align: right;
+}
+.cart-header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.cart-item{
+    flex-basis: 20%;
+    padding:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    background-color:  white;
+    margin: 3.7%;
+}
+.bottom{
+    text-align: left;
+}
+.buy-button{
+    text-decoration: none;
+    color: brown;
+    background-color: white;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 78%;
+}
+.shipping-container{
+    text-align: left;
+    color: black;
+    padding:5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

@@ -1,0 +1,18 @@
+<div *ngIf="!logged" class="login">
+    <h2>
+      Войти
+    </h2>
+    <p>Email или номер телефона</p>
+    <input type="text" [(ngModel)]="username">
+    <p>Пароль</p>
+    <input type="text" [(ngModel)]="password">
+    <p><button (click)="login()" style="color: brown;">Войти</button></p>
+  </div>
+  
+  <div *ngIf="logged" class="login">
+    <h2>
+      Логин успешно завершен
+    </h2>
+    <br>
+    <button (click)="logout()">Выйти</button>
+  </div>

@@ -1,0 +1,19 @@
+<h2 class="h2-style">Подарки</h2>
+<div class="container">
+
+<ul class="products-style">
+  <li *ngFor="let product of products" class="box">
+    <div class="img-container">
+    <a routerLink="/products/{{product.id}}">
+       {{product.name}}
+    
+    <img class="best-item" src="{{product.Image[0]}}" width="300" height="240" alt="suret">
+  </a>
+    </div>
+  </li>
+</ul>
+<div class="bottom">
+  <button (click)="goBack()" class="back-button">Назад</button>
+</div>
+
+</div>

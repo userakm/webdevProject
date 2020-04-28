@@ -1,0 +1,25 @@
+<div class="container">
+<h2 class="h2-style">{{product.name}}</h2>
+
+
+<div class="share-buttons">
+  <button (click)="share(1)" style="background-color: black; border-color: black;">
+    <img class="" src="https://s18955.pcdn.co/wp-content/uploads/2019/06/telegram-copy.png" width="24" height="24">   
+  </button>
+  <button (click)="share(2)" style="background-color: white; border-color:seagreen;">
+    <img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" width="24" height="24">   
+  </button>
+</div>
+<div class="box">
+<p>
+    Цена: {{product.price}}$ <br>
+    О товаре: {{ product.description }} <br>
+</p>
+<div class="menu-line">
+    <button (click)="addToCart(product)"class="addToCart">Добавить в корзинку</button>
+  </div>
+  
+<div class="bottom">
+  <button (click)="goBack()"class="back-button">Назад</button>
+</div>
+</div>

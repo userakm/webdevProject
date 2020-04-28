@@ -1,0 +1,32 @@
+.container{
+text-align: center;
+margin-bottom: 2%;
+color: brown;
+}
+.button{
+   text-decoration: none;
+   color: brown;
+   background-color: white;
+   border: brown solid 1px;
+   padding:10px;
+   border-radius: 5px;
+   margin-right: 9px;
+
+}
+.box{
+    margin-left: -1000px;
+    margin-top: -50px;
+}
+.button1{
+    text-decoration: none;
+    color:brown;
+    background-color: white;
+    padding:10px;
+    border: brown solid 1px;
+    border-radius: 5px;
+    margin-right: 9px;
+}
+.box1{
+    margin-left: 1240px;
+    margin-top: -15px;
+}

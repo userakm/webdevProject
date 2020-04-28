@@ -1,0 +1,32 @@
+<div class="cart">
+  <div class="cart-header">
+      <h2>Моя корзинка</h2>
+  </div>
+  <div class="close-container">
+      <img  (click)=' clearCart()' src="https://cdn3.iconfinder.com/data/icons/musthave/256/Delete.png" width="50" height="50">
+  </div>
+  <div class="cart-container">
+      <div class="cart-item" *ngFor="let item of items">
+          
+          <span>{{ item.name }}</span>
+          <span> - {{ item.price }}$</span>
+      </div>
+  </div>
+  
+  <div class="shipping-container">
+      <button class="buy-button" (click)="getUserOrders()">Показать историю заказов</button>
+    <div class="cart-container">
+        <div class="cart-item" *ngFor="let orderedItem of orderedItems">
+            
+            <span>{{orderedItem.items}}</span>
+        </div>
+       
+    </div>
+    
+  </div>
+
+  <div class="bottom">
+    <button class="buy-button" (click)="purchase()">Заказать</button>
+  </div>
+  
+</div>
